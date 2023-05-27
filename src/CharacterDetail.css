@@ -1,0 +1,34 @@
+.character-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.character-detail-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.character-detail-card {
+  width: 100%;
+  max-width: 600px;
+}
+
+.character-detail-content {
+  display: flex;
+  align-items: center;
+}
+
+.character-detail-image {
+  margin-right: 20px;
+}
+
+.character-detail-info {
+  flex-grow: 1;
+}
+
+.character-detail-divider {
+  margin: 16px 0;
+}

@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #0c7c85
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.character-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.character-info {
+  margin-bottom: 4px;
+}
+
+.ant-card-body {
+  padding: 0;
+}
+
+.ant-spin-nested-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
